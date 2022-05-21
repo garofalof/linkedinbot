@@ -149,7 +149,7 @@ data.forEach((result, index) => {
     });
 });
 
-// writeStream.end();
+writeStream.end();
 
 writeStream.on('finish', () => {
     console.log('finish write stream, moving along')
